@@ -1,0 +1,23 @@
+# TLS certificates (don't commit these!)
+*.crt
+*.key
+*.pem
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
